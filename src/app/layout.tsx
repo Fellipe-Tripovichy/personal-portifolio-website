@@ -12,10 +12,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const bodyClasses = ["inter", "bg-beige"].join(" ");
   return (
     <html lang="pt-BR">
-      <body className={'bodyClasses'}>
+      <body className={'bg-beige'}>
         <ThemeProvider enableSystem={true} attribute='class'>
           <NavBar/>
           {children}

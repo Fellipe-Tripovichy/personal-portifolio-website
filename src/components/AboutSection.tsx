@@ -13,7 +13,7 @@ const AboutSection = () => {
             <div className='md:w-1/2'>
                 <SectionHeader title='About me'/>
                 <div className='pt-8'>
-                    <p className='text-base font-normal'>
+                    <p className='text-base font-normal color-white'>
                         I am a Brazilian tech enthusiast currently pursuing a Bachelor’s degree in Information Systems at the University of São Paulo. I have experience working on challenging but rewarding tech projects, designing and developing digital products.
                     </p>
                 </div>
