@@ -4,7 +4,7 @@ import React from 'react'
 const HeroSection = () => {
   return (
     <section id='hero'>
-        <div className='flex flex-row items-start justify-start pt-32 lg:pt-40 md:justify-between md:items-center'>
+        <div className='flex flex-row items-start justify-start pt-32 lg:pt-44 md:justify-between md:items-center'>
             <div className='flex flex-col'>
                 <div className='flex flex-row items-center justify-center space-x-4'>
                     <img className='w-1.5 lg:w-2' alt='' src='/grafismo-hero.svg'/>

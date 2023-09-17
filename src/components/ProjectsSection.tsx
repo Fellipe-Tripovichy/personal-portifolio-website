@@ -1,7 +1,6 @@
 'use client'
 import React from 'react'
 import SectionHeader from './SectionHeader'
-import LinkButton from './LinkButton'
 import ProjectCard from './ProjectCard'
 
 const projects = [
