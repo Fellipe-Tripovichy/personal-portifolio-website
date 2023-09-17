@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import React from 'react'
 import LinkButton from './LinkButton'
 import Image from 'next/image'
