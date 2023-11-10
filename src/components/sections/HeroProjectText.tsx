@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Badge from 'src/components/Badge.tsx'
+import Badge from '@/components/Badge'
 
 interface Area{
     area: string

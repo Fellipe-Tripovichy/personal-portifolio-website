@@ -1,8 +1,8 @@
 "use client"
 import React from 'react'
-import ImageAndText from 'src/components/sections/ImageAndText.tsx'
-import HeroProjectImage from 'src/components/sections/HeroProjectImage.tsx'
-import HeroProjectText from 'src/components/sections/HeroProjectText.tsx'
+import ImageAndText from '@/components/sections/ImageAndText'
+import HeroProjectImage from '@/components/sections/HeroProjectImage'
+import HeroProjectText from '@/components/sections/HeroProjectText'
 
 const areas = [
   {area: 'Design'},
