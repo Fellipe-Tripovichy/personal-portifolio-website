@@ -7,7 +7,7 @@ import ProjectsSection from '@/components/ProjectsSection'
 
 export default function Home() {
   return (
-    <main className='mx-auto w-full px-4 bg-beige sm:px-6 md:max-w-6xl'>
+    <main className=' mx-auto w-full bg-beige px-4 sm:px-6 md:max-w-6xl'>
       <HeroSection/>
       <AboutSection/>
       <SkillsSection/>

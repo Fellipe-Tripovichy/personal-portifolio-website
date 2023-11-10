@@ -46,6 +46,14 @@ const config: Config = {
 
         'img-lg-w': '442px',
         'img-md-w': '340px',
+
+        'hero-project-sm':'360px',
+        'hero-project-md':'426px',
+
+        'distance-md':'11%',
+        'distance-lg':'20%',
+
+        'width-lg-graphic-hero':'7px'
       },
       animation: {
         fadeIn: "fadeIn 1.5s",

@@ -4,6 +4,7 @@ import {Link} from "react-scroll"
 import {useTheme} from "next-themes"
 import {RiMoonFill, RiSunLine} from "react-icons/ri"
 import Image from 'next/image'
+import LinkNav from "next/link"
 
 interface NavItem {
     label: string
@@ -38,10 +39,11 @@ const NavBar = () => {
   return (
     <header className="w-full p-4 md:py-2 fixed top-0 z-50 shadow bg-white">
       <div className='flex-1 justify-between mx-auto max-w-6xl items-center md:flex md:flex-row'>
+        <LinkNav href="/app">
         <div className='hidden md:block'>
-          <img className='w-logo' alt='' src='/logo.svg'/>
-          
+            <img className='w-logo' alt='' src='/logo.svg'/> 
         </div>
+        </LinkNav>
         <div>
           <div className='flex flex-row items-center justify-between'>
             <div className='md:hidden'>

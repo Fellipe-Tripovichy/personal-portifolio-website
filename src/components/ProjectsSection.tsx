@@ -4,7 +4,7 @@ import SectionHeader from './SectionHeader'
 import ProjectCard from './ProjectCard'
 
 const projects = [
-    {imageURL: '/Image-project.png', title: 'Ecommerce Kopenhagen', description:'Lorem ipsum dolor sit amet consectetur. Blandit nulla fermentum leo proin ultricies eleifend. Sed nunc sed platea luctus sit.', linkButtonTitle: 'Ver projeto', linkButtonURL:'hero', areas:[{ area: 'Frontend' }, { area: 'Backend' }]},
+    {imageURL: '/Image-project.png', title: 'Ecommerce Kopenhagen', description:'Lorem ipsum dolor sit amet consectetur. Blandit nulla fermentum leo proin ultricies eleifend. Sed nunc sed platea luctus sit.', linkButtonTitle: 'Ver projeto', linkButtonURL:'http://localhost:3000/projects/KopenhagenProjectPage', areas:[{ area: 'Frontend' }, { area: 'Backend' }]},
     {imageURL: '/Image-project-2.png', title: '+Transportes | Vibra Energia', description:'Lorem ipsum dolor sit amet consectetur. Blandit nulla fermentum leo proin ultricies eleifend. Sed nunc sed platea luctus sit.', linkButtonTitle: 'Ver projeto', linkButtonURL:'hero', areas:[{ area: 'Design' }, { area: 'Frontend' }]},
     {imageURL: '/Image-project-2.png', title: '+Transportes | Vibra Energia', description:'Lorem ipsum dolor sit amet consectetur. Blandit nulla fermentum leo proin ultricies eleifend. Sed nunc sed platea luctus sit.', linkButtonTitle: 'Ver projeto', linkButtonURL:'hero', areas:[{ area: 'Design' }, { area: 'Frontend' }]},
     {imageURL: '/Image-project-2.png', title: '+Transportes | Vibra Energia', description:'Lorem ipsum dolor sit amet consectetur. Blandit nulla fermentum leo proin ultricies eleifend. Sed nunc sed platea luctus sit.', linkButtonTitle: 'Ver projeto', linkButtonURL:'hero', areas:[{ area: 'Design' }, { area: 'Frontend' }]},
