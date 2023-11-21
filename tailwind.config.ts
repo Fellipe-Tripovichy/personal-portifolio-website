@@ -53,6 +53,10 @@ const config: Config = {
         'distance-md':'11%',
         'distance-lg':'20%',
 
+        'image-list-sm-w': '100%',
+        'image-list-md-w': '45%',
+        'image-list-lg-w': '42%',
+
         'width-lg-graphic-hero':'7px'
       },
       animation: {

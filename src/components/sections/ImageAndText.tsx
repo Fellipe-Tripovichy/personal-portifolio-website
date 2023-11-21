@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
 import SectionHeader from '../SectionHeader'
-import Image from 'next/image'
 
 interface Props{
     imageURL: string
@@ -19,7 +18,7 @@ const ImageAndText = ({imageURL, title, text, side}: Props) => {
             <div className='w-full md:w-auto'>
                 <img className='w-full md:w-img-md-w lg:w-img-lg-w rounded-lg drop-shadow-md' alt='' src='/image-hero.png'/>
             </div>
-            <div className='md:w-1/2 '>
+            <div className='md:w-1/2'>
                 <SectionHeader title='About me'/>
                 <div className='pt-8'>
                     <p className='text-base font-normal text-gray-400'>
