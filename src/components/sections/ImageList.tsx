@@ -12,11 +12,20 @@ const images = [
     {imageURL: '/Kopenhagen/kopenhagen-1.png', description: 'App Home Screen'}
 ]
 
-const ImageList = () => {
+interface imagesStruct{
+    imageURL: string
+    description: string
+}
+interface Props{
+    title: string
+    images: imagesStruct[]
+}
+
+const ImageList = ({title, images}: Props) => {
   return (
     <div className='mt-20'>
         <div className='pb-14 md:w-1/2'>
-            <SectionHeader title='Figma App screens'/>
+            <SectionHeader title={title}/>
         </div>
         <div className='w-full justify-center items-center space-y-4 md:space-y-0 md:grid md:grid-cols-2 md:gap-8 '>
                 {images.map((item, idx) => {
