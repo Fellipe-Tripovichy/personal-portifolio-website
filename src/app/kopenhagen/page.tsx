@@ -29,9 +29,9 @@ const bulletsListSteps = [
 export default function KopenhagenProjectPage () {
   return (
     <main className='w-full bg-beige '>
-          <HeroProjectImage/>
+          <HeroProjectImage imageURL="/Kopenhagen/Imagem-capa-kopenhagen.png" backgroundColor='bg-red-desire-light'/>
           <div className='mx-auto px-4 sm:px-6 md:max-w-6xl mt-8'>
-            <HeroProjectText title="E-COMMERCEKOPENHAGENnn" description='Elevating the brazilian chocolate consumption experience' areas={areas}/>
+            <HeroProjectText title="E-COMMERCE APP KOPENHAGEN" description='Elevating the brazilian chocolate consumption experience' areas={areas}/>
             <ImageAndText imageURL='/image-hero.png' title='Overview' text='I collaborated on creating an e-commerce app for Kopenhagen, a Brazilian brand of sweets and chocolates. The app aimed to provide a digital platform for product purchases and improve the consumer experience with loyalty plans, promotions, and engaging interactions.' side='right'/>
             <BulletList title='My contributions' bullets={bulletsListSteps}/>
             <ImageAndText imageURL='/image-hero.png' title='Information Architecture' text='The app features a user-friendly architecture that simplifies shopping. Users can easily find products and make purchases with just a few clicks. The smart search efficiently matches search terms with relevant results. The streamlined checkout process minimizes the number of steps required. Additionally, the reliable logistics ensure fast shipment, allowing orders to be received on time.' side='left'/>

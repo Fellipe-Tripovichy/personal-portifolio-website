@@ -16,11 +16,12 @@ interface Props{
     linkButtonTitle: string
     linkButtonURL: string
     areas: Area[]
+    pageDestination: string
 }
 
-const ProjectCard = ({imageURL, title, description, linkButtonTitle, linkButtonURL, areas}: Props) => {
+const ProjectCard = ({imageURL, title, description, linkButtonTitle, linkButtonURL, areas, pageDestination}: Props) => {
   return (
-    <Link href="/kopenhagen">
+    <Link href={pageDestination}>
         <div className='flex flex-col -space-y-2 w-card-sm md:w-card-md md:gap-x-distance-md lg:gap-x-distance-lg drop-shadow-md hover:drop-shadow-xl'>
             <div className='z-30 rounded-lg'>
                 <img className='rounded-lg w-image-card-sm md:w-image-card-md' alt='' src={imageURL}/>

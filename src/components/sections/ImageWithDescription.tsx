@@ -11,7 +11,7 @@ const ImageWithDescription = ({imageURL, description}: Props) => {
     <div className='w-full'>
         <div className='flex'>
             <div className='flex-none relative pr-2 drop-shadow-md '>
-                <div className='w-40 md:w-40 absolute object-cover inset-y-6'>
+                <div className='w-44 md:w-44 absolute object-cover inset-y-6'>
                     <div className='bg-white flex flex-row gap-x-2 items-center justify-start py-1'>
                         <img className='w-4 ml-2' alt='' src='/chevron-right.svg'/>
                         <p className='text-sm font-bold text-gray-400'>
